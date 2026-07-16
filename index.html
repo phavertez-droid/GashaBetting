@@ -57,16 +57,16 @@
         </div>
         <div class="p-0">
             <div class="p-6 border-b flex items-center space-x-4">
-                <i class="fa-solid fa-wallet text-xl text-gray-400"></i>
+                <i class="fa-solid fa-wallet text-xl text-gray-"></i>
                 <div>
-                    <p class="text-[10px] text-gray-400 font-bold uppercase leading-none mb-1">Balance</p>
+                    <p class="text-[10px] text-gray- font-bold uppercase leading-none mb-1">Balance</p>
                     <p class="text-xl font-black text-gray-800"><span class="current-balance-text">0.00</span> ETB</p>
                 </div>
             </div>
             <div class="p-6 border-b flex items-center space-x-4">
                 <i class="fa-solid fa-star text-xl text-yellow-500"></i>
                 <div>
-                    <p class="text-[10px] text-gray-400 font-bold uppercase leading-none mb-1">Points Balance</p>
+                    <p class="text-[10px] text-gray- font-bold uppercase leading-none mb-1">Points Balance</p>
                     <p class="text-xl font-black text-gray-800">50.00</p>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                     <div class="text-green-600 flex items-center"><i class="fa-solid fa-circle-check mr-2"></i> Success!</div>
                     <div class="flex flex-col items-end">
                         <span class="text-gray-800 uppercase font-black text-[10px] tracking-widest leading-tight">Cloudflare</span>
-                        <div class="flex space-x-2 text-[8px] text-gray-400 font-normal"><span>Privacy</span><span>•</span><span>Help</span></div>
+                        <div class="flex space-x-2 text-[8px] text-gray- font-normal"><span>Privacy</span><span>•</span><span>Help</span></div>
                     </div>
                 </div>
                 <button onclick="handleAuth('login')" class="w-full bg-[#3066e3] text-white py-3.5 rounded font-bold uppercase mt-4 shadow-sm hover:bg-blue-700">Sign In</button>
@@ -190,7 +190,7 @@
         <button onclick="showPage('deposit-methods-page')" class="mb-4 text-xl"><i class="fa-solid fa-arrow-left"></i> Back</button>
         <div class="bg-card-blue p-6 rounded-2xl space-y-4 shadow-2xl">
             <p>ከቴሌብር ወደ <span class="text-deposit-green font-black underline">0963242274</span> ያስተላልፉ:: (Min: 1000)</p>
-            <input id="tele-amt" type="number" value="400" min="400" class="w-full bg-dark-navy p-4 rounded-xl font-bold outline-none border border-white/10">
+            <input id="tele-amt" type="number" value="1000" min="1000" class="w-full bg-dark-navy p-4 rounded-xl font-bold outline-none border border-white/10">
             <textarea id="tele-sms" placeholder="Paste Telebirr SMS here..." class="w-full bg-dark-navy p-4 rounded-xl h-40 border border-white/10 outline-none"></textarea>
             <button onclick="processDeposit('tele-amt')" class="w-full bg-deposit-green text-black py-4 rounded-xl font-black uppercase shadow-lg">Submit</button>
         </div>
